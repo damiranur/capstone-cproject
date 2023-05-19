@@ -1,0 +1,58 @@
+.homePage {
+    background-image: url('../../assets/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.homePage .homePageBox {
+    padding-top: 109px;
+    padding-bottom: 220px;
+    max-width: 557px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.knowMoreBtn{
+    display: inline-block;
+    background-color: #222935;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 127px;
+    border-radius: 5px;
+}
+
+.knowMoreBtn a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans';
+}
+
+.knowMoreBtn:hover {
+    background-color: #26c17e;
+  }
+
+.cropPhoto {
+    width: 163px;
+    height: 163px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cropPhoto img {
+    width: 163px;
+    position: absolute;
+    top: -13%;
+    left: 0%;
+    border: 1px solid #FFFFFF;
+}
