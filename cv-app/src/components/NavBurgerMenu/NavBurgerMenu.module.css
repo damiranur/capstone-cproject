@@ -1,0 +1,12 @@
+.burgerLines {
+    display: block;
+    height: 30px;
+    width: 30px;
+    color: white;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  

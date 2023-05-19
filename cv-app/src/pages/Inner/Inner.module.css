@@ -1,0 +1,54 @@
+.innerPage {
+    display: flex;
+
+}
+
+.upBtn {
+    position: fixed;
+    right: 30px;
+    bottom: -10px;
+}
+
+.navWrapper{
+    width: 270px;
+    transition: all 0.3s;
+}
+
+.navWrapperMin{
+    width: 80px;
+    transition: all 0.3s;
+}
+
+.navWrapperNone{
+    width: 0px;
+    transition: all 0.3s;
+}
+
+.navWrapper figure div {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.navWrapper figure div img {
+    max-width: 100px;
+}
+
+.navWrapper figcaption strong {
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.innerContent{
+    width: calc(100% - 270px);
+    transition: all 0.3s;
+}
+
+.innerContentMin{
+    width: calc(100% - 80px);
+    transition: all 0.3s;
+}
+
+.innerContentNone{
+    width: 100%;
+    transition: all 0.3s;
+}

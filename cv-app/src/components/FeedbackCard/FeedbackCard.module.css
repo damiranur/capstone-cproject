@@ -1,0 +1,55 @@
+.feedback {
+    margin-top: 40px;
+}
+.info {
+    margin-bottom: 10px;
+    background: #eee;
+    padding: 15px;
+}
+
+.feedbackReporter {
+    display: flex;
+    align-items: center;
+}
+
+.feedbackReporterPhoto {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+blockquote div{
+    text-align: start;
+}
+
+blockquote p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #222935;
+
+}
+
+cite {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #222935;
+    gap: 5px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}

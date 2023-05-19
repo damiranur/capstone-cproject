@@ -1,0 +1,133 @@
+.proSidebar {
+    height: 100vh;
+    width: 100%;
+    min-width: 100%;
+    /* background-color: #222935; */
+    position: fixed;
+}
+
+.smallPhotoBox {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    margin-left: -20px;
+    transition: all 0.3s;
+}
+
+.smallPhotoBox img {
+    width: 38px;
+    position: absolute;
+    top: -13%;
+    left: 0%;
+    border: 1px solid #FFFFFF;
+    transition: all 0.3s;
+}
+
+.bigPhotoBox {
+    width: 163px;
+    height: 125px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.bigPhotoBox img{
+    width: 163px;
+    position: absolute;
+    top: -13%;
+    left: 0%;
+    border: 1px solid #FFFFFF;
+    transition: all 0.3s;
+}
+
+.navContainer ul{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 11px;
+}
+
+.burgerMenu{
+    position: absolute;
+    top: 20px;
+    left: 269px;
+    background: #222935;
+    z-index: 5;
+    border-radius: 0px 5px 5px 0px;
+    transition: all 0.3s;
+}
+
+.burgerMenuMin{
+    position: absolute;
+    top: 20px;
+    left: 79px;
+    background: #222935;
+    z-index: 5;
+    border-radius: 0px 5px 5px 0px;
+    transition: all 0.3s; 
+}
+
+.burgerMenuNone{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background: #222935;
+    z-index: 5;
+    border-radius: 0px 5px 5px 0px;
+    transition: all 0.3s;
+}
+
+.navContainer ul li a span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.inactive{
+    color: #667081;
+}
+
+.navContainer ul li:hover{
+    color: #26C17E;
+    background-color:#667081;
+}
+
+.active{
+    color: #26C17E;
+}
+
+.btnGoBack{
+    display: inline-block;
+    background-color: #222935;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    left: 25%;
+}
+
+.btnGoBack a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans';
+}
+
+.btnGoBack:hover {
+    background-color: #26c17e;
+  }
