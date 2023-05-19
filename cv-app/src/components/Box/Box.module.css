@@ -1,0 +1,13 @@
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 36px 56px 30px;
+}
+
+.infoBoxContent {
+    font-size: 14px;
+    line-height: 150%;
+    text-align: start;
+    
+}

@@ -1,0 +1,44 @@
+.photoBox .cropPhoto {
+    width: 163px;
+    height: 163px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.photoBox .cropPhoto img {
+    width: 163px;
+    position: absolute;
+    top: -13%;
+    left: 0%;
+    border: 1px solid #FFFFFF;
+}
+
+.photoBox figcaption {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.photoBox strong {
+    font: 45px/54px "Open Sans",sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.photoBox .title {
+    font: 25px/30px "Open Sans",sans-serif;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.photoBox .description {
+    font-size: 14px;
+    line-height: 150%;
+}

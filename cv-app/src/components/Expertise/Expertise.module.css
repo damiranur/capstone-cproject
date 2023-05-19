@@ -1,0 +1,26 @@
+.expertiseList {
+    margin-top: 40px;
+}
+
+.expertiseList li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.expertiseListDate{
+    width: 160px;
+    margin-right: 20px;
+    text-align: start;
+}
+
+.expertiseListInfo{
+text-align: start;
+width: 851px;
+
+}
+
+.expertiseListInfo h3{
+    font: 700 16px/19px "Open Sans",sans-serif;
+    margin-bottom: 10px;
+}

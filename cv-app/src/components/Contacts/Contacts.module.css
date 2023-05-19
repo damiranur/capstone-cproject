@@ -1,0 +1,45 @@
+.contactsWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 36px;
+    margin-bottom: 51px;
+    padding-top: 100px;
+    gap: 20px;
+}
+
+dd a {
+    text-decoration: none;
+    color: #222935;
+}
+
+dl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+dd {
+    text-align: start;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    display: flex;
+    flex-direction: column;
+    color: #222935;
+}
+
+dd > a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    color: #667081;
+
+}
